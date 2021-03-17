@@ -14,19 +14,20 @@ i = sys.argv[+1]
 
 with open(i, "rt") as f:
 
-# I'm using a while loop to perform a Boolean. I'm choosing 1 so every element will be examined
-
-    y = 0
-    while x == f.read(1):
-        if x == "e" or x == "E":
-            z = 1
+#x equals the content of the text file
+    x = f.read()
+    y=x.count("e") + x.count("E")
+print(y)
+    #while x == f.read(1):
+     #   if x == "e" or x == "E":
+      #      z = 1
 
 # y is everything that isn't an e and the +1 will add every e found in the text
-        else:
+       # else:
            
-            z = 0
-        y = y + z
-    print(y)
+        #    z = 0
+        #y = y + z
+    #print(y)
 
 
 
