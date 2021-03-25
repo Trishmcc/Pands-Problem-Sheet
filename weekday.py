@@ -18,6 +18,4 @@ if weekNumber > 5:
 else:
     print ("It is the weekend, Yay!")
 
-
-
-
+    
