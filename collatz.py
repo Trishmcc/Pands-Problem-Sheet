@@ -1,7 +1,7 @@
 # This program will input any positive integer and output the successive values of the following calculation:
-#Take the current value and if it is even divide by 2 
+# Take the current value and if it is even divide by 2 
 # If the number is odd the multiply by 3 and 1
-#The program will end if the current value is 1
+# The program will end if the current value is 1
 # Author: Trish O'Grady
 
 
@@ -39,3 +39,4 @@ while x > 1:
        
 
 print(numbers)
+
