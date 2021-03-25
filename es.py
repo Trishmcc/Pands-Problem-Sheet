@@ -12,7 +12,7 @@ import sys
 # [1] represents the first argument after the python filename.
 # I call the moby dick text from the command line by using python ./es.py moby-dict.txt
 
-i = sys.argv[+1]
+i = sys.argv[1]
 
 # First I will open a file using the open function I'm using rt mode to read a text file
 
