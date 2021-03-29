@@ -10,14 +10,14 @@ def i(sqrt):
     n = float(input('Please enter a positive number:'))
 
 #call a function
-# n = 14.5
+# n = 14
 
 
-approx = 0.5 * 14.5
-better = 0.5 *(approx + 14.5/approx)
+approx = 0.5 * 14
+better = 0.5 *(approx + 14/approx)
 
 # Output approximation of its square root
 
-print ("The square root of 14.5 is approx: ", better)
+print ("The square root of 14 is approx: ", better)
 
 

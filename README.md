@@ -76,23 +76,45 @@ The program will end if the current value is 1. The file name is called collatz.
 
 * The rest of the code - I'm using a Boolean operator < and > If the week number is less than 5 (element 0-4) then its a week day, and if its greater than 5 then its the weekend.[2]
 
-
 ### References:
 
 1. https://www.w3schools.com/python/python_datetime.asp
 
 2. https://www.xspdf.com/resolution/58438157.html
 
+## TASK 6
+
+* A program that takes a positive floating-point number as input and outputs an approximation of its sqaure root. The file name is called squareRoot.py*
+
+### Explanation of code
+
+* The first line of code uses Issac Newton's square root function.
 
 
-Week 6: squareRoot.py completed. A program that takes a positive floating-point number as input and outputs an approximation of its sqaure root.
+
+### References:
 
 Bytes, (2021, February 25) 10 Simple Python Program | Square Root of a Number using Newton's method. https://www.youtube.com/watch?v=FOeSuUkxc5E 
 
-Week 7: es.py completed. A program that reads in a text file and outputs the number of e's it contains. The program takes the filename from an argument on the command line.
+## TASK 7
 
-Burgaud, A. (2019). Python Command Line Arguements [Online] Available at: https://realpython.com/python-command-line-arguments/[Accessed 6 March, 2021]
-[Online] Available at: https://www.w3schools.com/python/ref_string_count.asp/[Accessed 6 March, 2021]
+* A program that reads in a text file and outputs the number of e's it contains. The program should take the filename from an argument on the command line. The file name is called es.py*
+
+### Explanation of code
+
+* The first line of code - sys imports the internal Python module. 
+
+* The sys.argv is taking the input from the command line to open and work with that file and assigning that to i =i
+[1] represents the first argument after the python filename. I call the moby dick text from the command line by using python ./es.py moby-dict.txt
+
+* The open function is then applied.  I'm using rt mode to read a text file
+
+* x equals the content of the text file. Count returns the number of times e or E appear in the string.
+
+### References:
+
+https://realpython.com/python-command-line-arguments
+https://www.w3schools.com/python/ref_string_count.asp
 
 Week 8: plottask.py completed. This program displays a plot of functions f(x)=x, g(x)=xsquared and h(x)=x3 in the range [0, 4] on the one set of axes. 
 
