@@ -1,7 +1,7 @@
 # Pands-Problem-Sheet
 # By Trish O'Grady
 
-Week 2: bmi.py completed.  A program for calculating a persons BMI
+Week 2: bmi.py completed.
 
 Week 3: secondString.py completed. This program will input a string and output every second letter in reverse order. 
 
