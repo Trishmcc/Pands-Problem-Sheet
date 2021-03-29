@@ -1,4 +1,4 @@
-# PANDS-PROBLEM_SHEET
+# PANDS-PROBLEM-SHEET
 
 
 # WEEKLY TASKS
@@ -18,17 +18,28 @@
 
 * The last line of code prints the result of the calculation.
 
-## References:
+### References:
 
 1. https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292
 
 2. https://www.w3resource.com/python/built-in-function/round.php
 
 
+## TASK 3
 
-Week 3: secondString.py completed. This program will input a string and output every second letter in reverse order. 
+*This program will input a string and output every second letter in reverse order. The file name is called secondString.py*
 
-Jaffe, A. (2009). Understanding string reversal via slicing [Online] Available at: https://stackoverflow.com/questions/766141/understanding-string-reversal-via-slicing [Accessed 4 February, 2021].
+### Explanation of code
+
+* The first line of code requests the user to input a string.
+
+* The second line of code outputs a result. For my output I am reversing the string using splicing. 
+  I used two semi colons in square brackets to omit one or more characters. 
+  I used -2 as it allows every second letter to be chosen in reverse order.[1]
+
+### References:
+
+1. Jaffe, A. (2009). Understanding string reversal via slicing [Online] Available at: https://stackoverflow.com/questions/766141/understanding-string-reversal-via-slicing [Accessed 4 February, 2021].
 
 Week 4: collatz.py completed. This program will input any positive integer and output the successive values of the following calculation: Take the current value and if it is even divide by 2. If the number is odd the multiply by 3 and 1. The program will end if the current value is 1
 

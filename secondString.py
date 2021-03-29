@@ -7,7 +7,7 @@
 
 inputString = input ('Enter a string:')
 
-#For my output I am revesring the string using splicing. 
+#For my output I am reversing the string using splicing. 
 #I used two semi colons in square brackets to omit one or more characters. 
 #I used -2 as it allows every second letter to be chosen in reverse order.
 
