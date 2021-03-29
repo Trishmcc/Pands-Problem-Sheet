@@ -41,7 +41,31 @@
 
 1. Jaffe, A. (2009). Understanding string reversal via slicing [Online] Available at: https://stackoverflow.com/questions/766141/understanding-string-reversal-via-slicing [Accessed 4 February, 2021].
 
-Week 4: collatz.py completed. This program will input any positive integer and output the successive values of the following calculation: Take the current value and if it is even divide by 2. If the number is odd the multiply by 3 and 1. The program will end if the current value is 1
+
+## TASK 4
+
+*This program will input any positive integer and output the successive values of the following calculation:
+Take the current value and if it is even divide by 2 
+If the number is odd the multiply by 3 and 1
+The program will end if the current value is 1. The file name is called collatz.py*
+
+### Explanation of code
+
+* The first two lines of code request the user to input a number.
+
+* The third line of code is a while loop. I used a Boolean operator. This condition is saying that if x is greater than 1 then its True.[1]
+
+* The next two lines of code implement an if statement. This applies the function so if any number divided by 2 is 0 hence even then divide the number x itself by 2[2]
+
+* The next two lines of code have an else statement applied.  If the number is uneven then multiple by 3 and add 1. I'm using append - Whats before the dot - is added to the array. (x) is what is added to the numbers.
+
+### References:
+
+1. https://www.datacamp.com  
+2. https://bit.ly/3w7TxHF
+
+
+
 
 Week 5: weekday.py completed. A program that outputs whether or not today is a weekday.   
 
