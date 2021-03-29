@@ -64,12 +64,26 @@ The program will end if the current value is 1. The file name is called collatz.
 1. https://www.datacamp.com  
 2. https://bit.ly/3w7TxHF
 
+## TASK 5
+
+* A program that outputs whether or not today is a weekday. The file name is called weekday.py*
+
+### Explanation of code
+
+* The first line of code imports the datetime module.[1]
+
+* The second line of code applies the weekday function (returns an integer for the day of the week) and today function (to get the current date) from the datetime - so to get the week number from the date.
+
+* The rest of the code - I'm using a Boolean operator < and > If the week number is less than 5 (element 0-4) then its a week day, and if its greater than 5 then its the weekend.[2]
 
 
+### References:
 
-Week 5: weekday.py completed. A program that outputs whether or not today is a weekday.   
+1. https://www.w3schools.com/python/python_datetime.asp
 
-Datetime reference  Check if dateTime is a weekend or a weekday [Online] Available at: https://www.xspdf.com/resolution/58438157.html [Accessed 18 February, 2021]
+2. https://www.xspdf.com/resolution/58438157.html
+
+
 
 Week 6: squareRoot.py completed. A program that takes a positive floating-point number as input and outputs an approximation of its sqaure root.
 
