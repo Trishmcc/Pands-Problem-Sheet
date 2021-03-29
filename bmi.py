@@ -1,9 +1,10 @@
-# Program for calculating a persons BMI
-# Author: Trish OGrady
+#A program for calculating a persons BMI
+#Author: Trish OGrady
 
 
+#These two lines of code request a user to input their height and weight in kg
 #Inputting 2 variables named person height and person weight in Kgs
-#I'm using float as the BMI result is in decimal places.
+#I'm using float in my code as the BMI result is in decimal places.
 
 height = float(input('What is your height:'))
 weight = float(input('What is your weight:'))

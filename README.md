@@ -1,7 +1,30 @@
-# Pands-Problem-Sheet
-# By Trish O'Grady
+# PANDS-PROBLEM_SHEET
 
-Week 2: bmi.py completed.
+
+# WEEKLY TASKS
+## BY: Trish OGrady
+
+## TASK 2
+
+*A program for calculating a persons BMI. The file name is called bmi.py*
+
+### Explanation of code
+
+* These first two lines of code request a user to input their height and weight in kg. I'm using float in my code as the BMI result is in decimal places.
+
+* The next two lines of code convert the height from cm into metres squared using the BMI calculator [1]
+
+* The fifth line of code rounds the BMI to the nearest two decimal places.[2]
+
+* The last line of code prints the result of the calculation.
+
+## References:
+
+1. https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292
+
+2. https://www.w3resource.com/python/built-in-function/round.php
+
+
 
 Week 3: secondString.py completed. This program will input a string and output every second letter in reverse order. 
 
