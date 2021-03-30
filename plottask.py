@@ -36,6 +36,8 @@ plt.legend()
 
 plt.xticks([0, 1,2,3])
 
-plt.show()
+#plt.show()
+
+plt.savefig("plot.png")
 
 

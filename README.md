@@ -66,7 +66,7 @@ The program will end if the current value is 1. The file name is called collatz.
 
 ## TASK 5
 
-* A program that outputs whether or not today is a weekday. The file name is called weekday.py*
+*A program that outputs whether or not today is a weekday. The file name is called weekday.py*
 
 ### Explanation of code
 
@@ -84,7 +84,7 @@ The program will end if the current value is 1. The file name is called collatz.
 
 ## TASK 6
 
-* A program that takes a positive floating-point number as input and outputs an approximation of its sqaure root. The file name is called squareRoot.py*
+*A program that takes a positive floating-point number as input and outputs an approximation of its sqaure root. The file name is called squareRoot.py*
 
 ### Explanation of code
 
@@ -98,7 +98,7 @@ Bytes, (2021, February 25) 10 Simple Python Program | Square Root of a Number us
 
 ## TASK 7
 
-* A program that reads in a text file and outputs the number of e's it contains. The program should take the filename from an argument on the command line. The file name is called es.py*
+*A program that reads in a text file and outputs the number of e's it contains. The program should take the filename from an argument on the command line. The file name is called es.py*
 
 ### Explanation of code
 
@@ -116,6 +116,21 @@ Bytes, (2021, February 25) 10 Simple Python Program | Square Root of a Number us
 https://realpython.com/python-command-line-arguments
 https://www.w3schools.com/python/ref_string_count.asp
 
-Week 8: plottask.py completed. This program displays a plot of functions f(x)=x, g(x)=xsquared and h(x)=x3 in the range [0, 4] on the one set of axes. 
+## TASK 8
 
-Matplotlib: Plot a Function y=f(x) [Online] Available at: https://scriptverse.academy/tutorials/python-matplotlib-plot-function.html [Accessed 10 March, 2021]
+*This program displays a plot of functions f(x)=x, g(x)=xsquared and h(x)=x3 
+in the range [0, 4] on the one set of axes. The file name is called plottask.py*
+
+### Explanation of code
+
+* Created data in an array for a function f(x)
+
+* Created a function for y and z data points
+
+* The data was plotted by performing a calculation on the y axis - x, xsquared, xcubed
+
+* Labels were created, a legend created and unecessary decimal points removed.
+
+### References:
+
+https://scriptverse.academy/tutorials/python-matplotlib-plot-function.html
