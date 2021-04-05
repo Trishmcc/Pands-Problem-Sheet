@@ -131,7 +131,7 @@ in the range [0, 4] on the one set of axes. The file name is called plottask.py*
 
 * Labels were created, a legend created and unecessary decimal points removed.
 
-![alt text] (https://github.com/Trishmcc/Pands-Problem-Sheet/blob/main/plot.png)
+![alt text](https://github.com/Trishmcc/Pands-Problem-Sheet/blob/main/plot.png)
 
 
 ### References:
