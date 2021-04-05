@@ -95,6 +95,7 @@ The program will end if the current value is 1. The file name is called collatz.
 ### References:
 
 Bytes, (2021, February 25) 10 Simple Python Program | Square Root of a Number using Newton's method. https://www.youtube.com/watch?v=FOeSuUkxc5E 
+https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 
 ## TASK 7
 
