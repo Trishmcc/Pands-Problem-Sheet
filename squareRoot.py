@@ -1,33 +1,43 @@
-# A program that takes a positive floating-point number 14.5 as input 
-# and outputs an approximation of its sqaure root 3.8 
-# Author: Trish O'Grady
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Apr  4 14:38:23 2021
 
-import math as mt
-
-def square_root():
-    value=float(input("Enter the number: "))
-    sqrt_value=round(mt.sqrt(value),1)
-    print("The Approximate square root is: ",sqrt_value)
+@author: IVth Hokage
+"""
+  
+# Function to return the square root of 
+# a number using Newtons method 
+def squareRoot(n) :
+  
+    # Assuming the sqrt of n as n only 
+    x = n 
+    m=0.00001
+  
+    # To count the number of iterations 
+    count = 0 
+  
+    while (1) :
+        count += 1 
+  
+        # Calculate more closed x 
+        root = 0.5 * (x + (n / x)) 
+  
+        # Check for closeness 
+        if (abs(root - x) < m) :
+            break 
+  
+        # Update root 
+        x = root
+  
+    return root 
+  
+if __name__ == "__main__" : 
+  
+    n = float(input("Enter the number: "))
+  
+    output=squareRoot(n)
     
-square_root()
-#def i(sqrt):
-
-#Input is a positive floating number
-
-    #n = float(input('Please enter a positive number:'))
-
-#call a function
-# n = 14.5
-
-#approx = math.sqrt(14.5)
-#approx = 0.5 ** 14.5
-#better = 0.5 *(approx + 14.5/approx)
-
-# Output approximation of its square root
-
-#print ("The square root of 14.5 is approx: ", better)
-
-#print(approx)
+    print("The approximate square root is: ",round(output,1))
 
 
 

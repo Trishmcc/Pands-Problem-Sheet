@@ -91,7 +91,6 @@ The program will end if the current value is 1. The file name is called collatz.
 * The first line of code uses Issac Newton's square root function.
 
 
-
 ### References:
 
 Bytes, (2021, February 25) 10 Simple Python Program | Square Root of a Number using Newton's method. https://www.youtube.com/watch?v=FOeSuUkxc5E 
@@ -131,6 +130,9 @@ in the range [0, 4] on the one set of axes. The file name is called plottask.py*
 * The data was plotted by performing a calculation on the y axis - x, xsquared, xcubed
 
 * Labels were created, a legend created and unecessary decimal points removed.
+
+![alt text] https://github.com/Trishmcc/Pands-Problem-Sheet/blob/main/plot.png
+
 
 ### References:
 
