@@ -1,32 +1,33 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  4 14:38:23 2021
-
-@author: IVth Hokage
-"""
   
-# Function to return the square root of 
-# a number using Newtons method 
+# A program that takes a positive floating-point number 14.5 as input 
+# and outputs an approximation of its sqaure root 3.8 
+# Author: Trish O'Grady
+
+#This is the formaula for Neewtons formula
+
 def squareRoot(n) :
   
-    # Assuming the sqrt of n as n only 
+#Approximate a value of a function. The error should be small between approx and real value 
+#as there is always an error.
+    
     x = n 
-    m=0.00001
+    m=0.00001 
   
-    # To count the number of iterations 
-    count = 0 
-  
-    while (1) :
-        count += 1 
-  
-        # Calculate more closed x 
+# To count the number of iterations 
+      
+    while (1) :  
+        
+# Calculate more closed x 
+        
         root = 0.5 * (x + (n / x)) 
   
-        # Check for closeness 
+# Check for closeness # 
+        
         if (abs(root - x) < m) :
             break 
   
-        # Update root 
+# Update root 
+        
         x = root
   
     return root 

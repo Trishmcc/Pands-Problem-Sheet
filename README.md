@@ -89,12 +89,17 @@ The program will end if the current value is 1. The file name is called collatz.
 ### Explanation of code
 
 * The first line of code uses Issac Newton's square root function.
+* The next line of code sets x = n making the assumption that the sqrt of n as n only.  n gets the approximate value of a function. If approx value and real value are as small as possible then a big number can be added for a sq rt value so m=0.00001 Also, there are always errors. The error should be very small between approx and real value.
+* The next line of code includes a while loop. This counts the number of iterations.
+* Line 26 - Calculates the value of the root in every iteration and then places a condition where the value of the root is less than m (limit 0.00001). At this point, the loop will break. So assign root to x and return the approx.value of the root.
+    
 
 
 ### References:
 
 Bytes, (2021, February 25) 10 Simple Python Program | Square Root of a Number using Newton's method. https://www.youtube.com/watch?v=FOeSuUkxc5E 
 https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N
 
 ## TASK 7
 
