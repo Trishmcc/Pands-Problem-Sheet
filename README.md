@@ -84,17 +84,18 @@ The program will end if the current value is 1. The file name is called collatz.
 
 ## TASK 6
 
-*A program that takes a positive floating-point number as input and outputs an approximation of its sqaure root. The file name is called squareRoot.py*
+*A program that takes a positive floating-point number as input and outputs an approximation of its square root. The file name is called squareRoot.py*
 
 ### Explanation of code
 
-* The first line of code uses Issac Newton's square root function.
-* The next line of code sets x = n making the assumption that the sqrt of n as n only.  n gets the approximate value of a function. If approx value and real value are as small as possible then a big number can be added for a sq rt value so m=0.00001 Also, there are always errors. The error should be very small between approx and real value.
-* The next line of code includes a while loop. This counts the number of iterations.
-* Line 26 - Calculates the value of the root in every iteration and then places a condition where the value of the root is less than m (limit 0.00001). At this point, the loop will break. So assign root to x and return the approx.value of the root.
+* The function is used to approximate the square root for a real number using Issac Newton's approximation method.
     
-
-
+    1. Let N be any number then the square root of N can be given by the formula:
+        root = 0.5 * (Guess + (N / Guess)) where X is any guess which can be assumed to be N.
+    2. In the above formula, Guess is any assumed square root of N and root is the correct square root of N.
+    3. Tolerance limit is the maximum difference between Guess and root allowed.
+    4. The next line of code includes a while loop. This counts the number of iterations. Looping until the difference between the approximated root and allowed root is less that the tolerance limit.
+    
 ### References:
 
 Bytes, (2021, February 25) 10 Simple Python Program | Square Root of a Number using Newton's method. https://www.youtube.com/watch?v=FOeSuUkxc5E 
