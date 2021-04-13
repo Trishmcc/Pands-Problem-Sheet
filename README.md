@@ -90,17 +90,16 @@ The program will end if the current value is 1. The file name is called collatz.
 
 * The function is used to approximate the square root for a real number using Issac Newton's approximation method.
     
-    1. Let N be any number then the square root of N can be given by the formula:
-        root = 0.5 * (Guess + (N / Guess)) where X is any guess which can be assumed to be N.
-    2. In the above formula, Guess is any assumed square root of N and root is the correct square root of N.
-    3. Tolerance limit is the maximum difference between Guess and root allowed.
-    4. The next line of code includes a while loop. This counts the number of iterations. Looping until the difference between the approximated root and allowed root is less that the tolerance limit.
+* Let N be any number then the square root of N can be given by the formula: root = 0.5 * (Guess + (N / Guess)) where X is any guess which can be assumed to be N.
+* In the above formula, Guess is any assumed square root of N and root is the correct square root of N.
+* Tolerance limit is the maximum difference between Guess and root allowed.
+* The next line of code includes a while loop. This counts the number of iterations. Looping until the difference between the approximated root and allowed root is less that the tolerance limit.
     
 ### References:
 
-Bytes, (2021, February 25) 10 Simple Python Program | Square Root of a Number using Newton's method. https://www.youtube.com/watch?v=FOeSuUkxc5E 
-https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
-https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N
+1. Bytes, (2021, February 25) 10 Simple Python Program | Square Root of a Number using Newton's method. https://www.youtube.com/watch?v=FOeSuUkxc5E 
+2. https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+3. https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N
 
 ## TASK 7
 
